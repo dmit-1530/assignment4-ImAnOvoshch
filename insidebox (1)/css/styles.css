@@ -62,7 +62,7 @@ h1 {
     color: var(--heading-grey);
     font-weight: 700;
     font-size: 1.25rem;
-    letter-spacing: -3%;
+    letter-spacing: -0.0375rem;
     line-height: 1.5;
     margin-bottom: .5rem;
 }
