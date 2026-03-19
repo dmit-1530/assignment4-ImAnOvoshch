@@ -1,3 +1,39 @@
+:root {
+    --heading-grey: #727B81;
+    --menu-grey: #666F74;
+    --accent-blue: #0A91DE;
+    --border-grey: #DDDDDD;
+    --nunito-font: "Nunito", sans-serif;
+    --manrope-font: "Manrope", sans-serif;
+}
+
+/* Utility */
+
 body {
     background-color: #eee;
+    display: flex;
 }
+
+header {
+    flex: 0 0 14.5rem;
+    background-color: #FFFFFF;
+    border: 1px solid var(--border-grey);
+}
+
+.inner-container {
+    width: 77.5rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+svg {
+    width: 1.6875rem;
+    height: auto;
+}
+
+/* Typography */
