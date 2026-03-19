@@ -95,7 +95,7 @@ header > p {
 
 /* Sub-menu */
 
-.main-menu > li {
+.main-menu > li:first-of-type {
     position: relative;
 }
 
