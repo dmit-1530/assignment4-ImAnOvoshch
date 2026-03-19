@@ -46,6 +46,10 @@ ul {
     padding: 0;
 }
 
+.main-menu {
+    gap: 1.5rem;
+}
+
 /* Typography */
 
 body {
@@ -99,6 +103,7 @@ header > p {
     position: absolute;
     z-index: 1;
     right: -7rem;
+    top: -1.125rem;
     background-color: #FFFFFF;
     border: 1px solid var(--accent-blue);
     border-radius: .4375rem;
@@ -106,10 +111,18 @@ header > p {
     width: 10.875rem;
     display: flex;
     flex-flow: column wrap;
+    visibility: hidden;
+    opacity: 0;
 }
 
 .sub-menu li:not(.sub-menu li:last-of-type) {
     margin-bottom: .5rem;
     padding-bottom: .5rem;
     border-bottom: 1px solid var(--border-grey);
+}
+
+.main-menu li:first-of-type:hover .sub-menu,
+.main-menu li:first-of-type:focus .sub-menu {
+    visibility: visible;
+    opacity: 1;
 }
